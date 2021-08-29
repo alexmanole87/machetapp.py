@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Macheta</class>
+ <widget class="QMainWindow" name="Macheta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1816</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Trebuchet MS</family>
+    <pointsize>12</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>2152</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="25" colspan="2">
+      <widget class="QLabel" name="def_label">
+       <property name="text">
+        <string>Definitivă prin:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="16" colspan="12">
+      <widget class="QLineEdit" name="nume_parinti_inc">
+       <property name="placeholderText">
+        <string>prenume părinți inculpat</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="13" colspan="3">
+      <widget class="QLabel" name="parinti_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>părinți:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1" colspan="12">
+      <widget class="QLineEdit" name="nume_inc">
+       <property name="placeholderText">
+        <string>nume prenume inculpat</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="23" rowspan="3" colspan="3">
+      <widget class="QLabel" name="oblig_3_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="whatsThis">
+        <string>Fără MFC!</string>
+       </property>
+       <property name="text">
+        <string>Obligații</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="9">
+      <widget class="QPushButton" name="inc_doc">
+       <property name="toolTip">
+        <string>Dacă ai o sentință o poți adugă pentru preluarea datelor</string>
+       </property>
+       <property name="text">
+        <string>Încarcă documentul</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="26" colspan="6">
+      <widget class="QLineEdit" name="obl_1">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>inclusiv MFC</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="10" colspan="2">
+      <widget class="QComboBox" name="an_ds_instanta">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;an dosar instanță&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100 = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>2021</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2018</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2019</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2020</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="12" colspan="2">
+      <widget class="QLabel" name="sent_label">
+       <property name="text">
+        <string>Sentință</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="28" rowspan="3" colspan="3">
+      <widget class="QLabel" name="instit_2_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Instit MFC 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="29" colspan="2">
+      <widget class="QPushButton" name="nlp">
+       <property name="toolTip">
+        <string>Procesarea Limbajului Natural</string>
+       </property>
+       <property name="text">
+        <string>NLP</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="28" colspan="2">
+      <widget class="QLabel" name="cnp_label_2">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>CNP:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0" rowspan="2" colspan="2">
+      <widget class="QLabel" name="infr_3_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Infracțiune 3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="17" colspan="5">
+      <widget class="QSpinBox" name="svp_luni">
+       <property name="suffix">
+        <string> luni</string>
+       </property>
+       <property name="maximum">
+        <number>11</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1" colspan="6">
+      <widget class="QDateEdit" name="data_nastere_inc"/>
+     </item>
+     <item row="7" column="23" rowspan="2" colspan="4">
+      <widget class="QLabel" name="oblig_1_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="whatsThis">
+        <string>Fără MFC!</string>
+       </property>
+       <property name="text">
+        <string>Obligații</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="14" colspan="4">
+      <widget class="QLineEdit" name="sent_nr">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="placeholderText">
+        <string>număr</string>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="10" colspan="5">
+      <widget class="QLabel" name="ds_svp">
+       <property name="text">
+        <string>Dosar supraveghere</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="31">
+      <widget class="QPushButton" name="re">
+       <property name="toolTip">
+        <string>Expresii Regulate</string>
+       </property>
+       <property name="text">
+        <string>RE</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="2" colspan="21">
+      <widget class="QLineEdit" name="infr_3">
+       <property name="placeholderText">
+        <string>articol infracțiune</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="15" colspan="4">
+      <widget class="QLabel" name="dom_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Domiciliu:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="19" colspan="13">
+      <widget class="QLineEdit" name="adresa_inc">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Lăsați sectorul ultimul!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>București, </string>
+       </property>
+       <property name="placeholderText">
+        <string>adresă inculpat</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="8" colspan="3">
+      <widget class="QSpinBox" name="ped_zile">
+       <property name="suffix">
+        <string> zile</string>
+       </property>
+       <property name="maximum">
+        <number>29</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="3">
+      <widget class="QLabel" name="ds_inst_label">
+       <property name="text">
+        <string>Dosar instanță:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="4" rowspan="2" colspan="5">
+      <widget class="QLabel" name="instit_1_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Instit MFC 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="21" colspan="2">
+      <widget class="QComboBox" name="an_ds_svp">
+       <item>
+        <property name="text">
+         <string>2021</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2018</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2019</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2020</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="18" colspan="2">
+      <widget class="QLabel" name="separator">
+       <property name="text">
+        <string>/</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="26" colspan="6">
+      <widget class="QLineEdit" name="obl_2">
+       <property name="placeholderText">
+        <string>inclusiv MFC</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="nastere_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Naștere:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0" rowspan="2" colspan="2">
+      <widget class="QLabel" name="infr_2_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Infracțiune 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="23" rowspan="2" colspan="4">
+      <widget class="QLabel" name="oblig_2_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="whatsThis">
+        <string>Fără MFC!</string>
+       </property>
+       <property name="text">
+        <string>Obligații</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="inc_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Inculpat:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6" colspan="4">
+      <widget class="QLineEdit" name="indicativ_ds_inst">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numărul dintre &amp;quot;/&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100 = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul dosarului&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="placeholderText">
+        <string>indicativ</string>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2" colspan="21">
+      <widget class="QLineEdit" name="infr1">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>articol infracțiune</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="30" colspan="2">
+      <widget class="QLineEdit" name="CNP">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="maxLength">
+        <number>13</number>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="9" rowspan="2">
+      <widget class="QComboBox" name="instit_1">
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public București-Sector I</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public București-Sector II</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public București-Sector II</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public București-Sector IV</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SC Amenajare Edilitară și Salubrizare SA Sector V</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public și Dezvoltare Urbană Sector 6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector I</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector II</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector III</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector IV</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector V</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector VI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Lacuri, Parcuri și Agrement București</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Poliția Locală a Sectorului I</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fundația pentru Promovarea Sancțiunilor Comunitare</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Cimitirelor și Crematoriilor Umane</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arhiepiscopia Bucureștilor</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>La alegerea SP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>în afara comeptentei SP</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="23">
+      <widget class="QLabel" name="separator_2">
+       <property name="text">
+        <string>/</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="27" colspan="5">
+      <widget class="QComboBox" name="optiuni_def">
+       <item>
+        <property name="text">
+         <string>neapelare la data de</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>decizia penală nr.:</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="15" colspan="3">
+      <widget class="QLineEdit" name="nr_ds_svp">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Daca nr dosarului e 1/SP/S/2020 aici scrii 1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numărul dosarului este format din trei elemente: numar înregistrare/indicativ instanta / an dosar. &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Să luam ca exemplu dosarul 1/300/2020&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;1 = numărul de înregistrare al dosarului la instanță&lt;/p&gt;&lt;p&gt;300 = indicativul instanței (300 este indicativul JS2). Orice dosar va avea indicativul instantei de fond&lt;/p&gt;&lt;p&gt;2020 = anul înregistrării dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="placeholderText">
+        <string/>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="7" colspan="6">
+      <widget class="QLineEdit" name="loc_nastere_inc">
+       <property name="placeholderText">
+        <string>loc nastere inculpat</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="0" rowspan="2" colspan="4">
+      <widget class="QSpinBox" name="zile_mfc">
+       <property name="suffix">
+        <string> zile MFC</string>
+       </property>
+       <property name="minimum">
+        <number>30</number>
+       </property>
+       <property name="maximum">
+        <number>120</number>
+       </property>
+       <property name="value">
+        <number>60</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="22" colspan="4">
+      <widget class="QSpinBox" name="svp_zile">
+       <property name="suffix">
+        <string> zile</string>
+       </property>
+       <property name="maximum">
+        <number>29</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0" rowspan="2" colspan="2">
+      <widget class="QLabel" name="infr_1_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Infracțiune 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="24" colspan="3">
+      <widget class="QDateEdit" name="data_ds_svp"/>
+     </item>
+     <item row="2" column="19" colspan="2">
+      <widget class="QLabel" name="separator_1">
+       <property name="text">
+        <string>/</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="20" colspan="5">
+      <widget class="QDateEdit" name="data_ds_svp_3"/>
+     </item>
+     <item row="18" column="16">
+      <widget class="QLabel" name="copy">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#1b24d5;&quot;&gt;Program creat de Alexandru Manole&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="12">
+      <widget class="QCheckBox" name="stiu_msj">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă ați văzut mesajul când apăsați &amp;quot;Încarcă documentul&amp;quot; puteți să bifați&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>Știu deja tot ceea ce e de știut!</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+       <property name="tristate">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="11" colspan="4">
+      <widget class="QLabel" name="svp_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Supraveghere:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="9" colspan="20">
+      <widget class="QLabel" name="sent_inc">
+       <property name="text">
+        <string>Nicio sentință încărcată</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="31">
+      <widget class="QComboBox" name="instit_2">
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public București-Sector I</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public București-Sector II</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public București-Sector II</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public București-Sector IV</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SC Amenajare Edilitară și Salubrizare SA Sector V</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Domeniului Public și Dezvoltare Urbană Sector 6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector I</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector II</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector III</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector IV</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector V</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector VI</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Lacuri, Parcuri și Agrement București</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Poliția Locală a Sectorului I</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fundația pentru Promovarea Sancțiunilor Comunitare</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrația Cimitirelor și Crematoriilor Umane</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arhiepiscopia Bucureștilor</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>La alegerea SP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>în afara comeptentei SP</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="6" column="15" colspan="2">
+      <widget class="QSpinBox" name="svp_ani">
+       <property name="suffix">
+        <string> ani</string>
+       </property>
+       <property name="maximum">
+        <number>4</number>
+       </property>
+       <property name="value">
+        <number>2</number>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2" colspan="21">
+      <widget class="QLineEdit" name="infr2">
+       <property name="placeholderText">
+        <string>articol infracțiune</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1" colspan="4">
+      <widget class="QSpinBox" name="ped_an">
+       <property name="suffix">
+        <string> ani</string>
+       </property>
+       <property name="prefix">
+        <string/>
+       </property>
+       <property name="minimum">
+        <number>0</number>
+       </property>
+       <property name="maximum">
+        <number>3</number>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5" colspan="3">
+      <widget class="QSpinBox" name="ped_luni">
+       <property name="suffix">
+        <string> luni</string>
+       </property>
+       <property name="maximum">
+        <number>11</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3" colspan="3">
+      <widget class="QLineEdit" name="nr_ds_inst">
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Prima parte a numărului dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100 = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul dosarului&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Normal</enum>
+       </property>
+       <property name="dragEnabled">
+        <bool>true</bool>
+       </property>
+       <property name="placeholderText">
+        <string>număr</string>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="26" colspan="6">
+      <widget class="QLineEdit" name="obl_3">
+       <property name="placeholderText">
+        <string>inclusiv MFC</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="ped_label">
+       <property name="font">
+        <font>
+         <family>Trebuchet MS</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Pedeapsa:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="16">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>CREEAZĂ DOSAR ȘI LISTA  </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1816</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>nr_ds_svp</tabstop>
+  <tabstop>an_ds_svp</tabstop>
+  <tabstop>data_ds_svp</tabstop>
+  <tabstop>nr_ds_inst</tabstop>
+  <tabstop>indicativ_ds_inst</tabstop>
+  <tabstop>an_ds_instanta</tabstop>
+  <tabstop>sent_nr</tabstop>
+  <tabstop>data_ds_svp_3</tabstop>
+  <tabstop>optiuni_def</tabstop>
+  <tabstop>nume_inc</tabstop>
+  <tabstop>nume_parinti_inc</tabstop>
+  <tabstop>CNP</tabstop>
+  <tabstop>data_nastere_inc</tabstop>
+  <tabstop>loc_nastere_inc</tabstop>
+  <tabstop>adresa_inc</tabstop>
+  <tabstop>ped_an</tabstop>
+  <tabstop>ped_luni</tabstop>
+  <tabstop>ped_zile</tabstop>
+  <tabstop>svp_ani</tabstop>
+  <tabstop>svp_luni</tabstop>
+  <tabstop>svp_zile</tabstop>
+  <tabstop>infr1</tabstop>
+  <tabstop>infr2</tabstop>
+  <tabstop>infr_3</tabstop>
+  <tabstop>obl_1</tabstop>
+  <tabstop>obl_2</tabstop>
+  <tabstop>obl_3</tabstop>
+  <tabstop>zile_mfc</tabstop>
+  <tabstop>instit_1</tabstop>
+  <tabstop>instit_2</tabstop>
+  <tabstop>inc_doc</tabstop>
+  <tabstop>stiu_msj</tabstop>
+  <tabstop>nlp</tabstop>
+  <tabstop>re</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
