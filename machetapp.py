@@ -491,8 +491,8 @@ class MachetaPyQt5(Ui_Macheta):
                                                                                                                     ""))
             Select(f.find_element_by_id('offender.county.code')).select_by_visible_text('București')
             f.find_element_by_id("offender.city").send_keys(self.sector())
+            Select(f.find_element_by_id("offender.addressArea")).select_by_value("URBAN")
             f.find_element_by_id("offender.residenceAddress").send_keys(self.adresa_inc.text())
-
             if self.studii_nesc.isChecked():
                 Select(f.find_element_by_id('offender.schoolEducation')).select_by_value('NONE')
             elif self.studii_s.isChecked():

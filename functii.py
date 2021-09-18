@@ -160,8 +160,7 @@ class document_supraveghere():
 (nrSentință)|{self.nrSentinta}
 (instanta)| {self.instanta} 
 (def)|{self.defin}
-(pedeapsa)| {self.pedeapsa}
-(indicativ) | {self.indicativ}
+(pedeapsa)| {self.pedeapsa}      (indicativ)|{self.indicativ}
 (termen de supraveghere)|{self.ts}
 (data start)| {self.data_svp_i}
 (data stop)| {self.data_svp_f}
