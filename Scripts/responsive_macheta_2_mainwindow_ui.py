@@ -452,8 +452,10 @@ class Ui_Macheta(object):
         self.inc_doc.setToolTip(_translate("Macheta", "Dacă ai o sentință o poți adugă pentru preluarea datelor"))
         self.inc_doc.setText(_translate("Macheta", "Încarcă documentul"))
         self.obl_1.setPlaceholderText(_translate("Macheta", "inclusiv MFC"))
-        self.an_ds_instanta.setToolTip(_translate("Macheta", "<html><head/><body><p>an dosar instanță</p></body></html>"))
-        self.an_ds_instanta.setWhatsThis(_translate("Macheta", "<html><head/><body><p>Dosarul de instanță are trei părți.</p><p>100/300/2020</p><p>100 = numărul dosarului</p><p>300 = indicativul instanței</p><p>2020 = anul dosarului</p></body></html>"))
+        self.an_ds_instanta.setToolTip(
+            _translate("Macheta", "<html><head/><body><p>an dosar instanță</p></body></html>"))
+        self.an_ds_instanta.setWhatsThis(_translate("Macheta",
+                                                    "<html><head/><body><p>Dosarul de instanță are trei părți.</p><p>100/300/2020</p><p>100 = numărul dosarului</p><p>300 = indicativul instanței</p><p>2020 = anul dosarului</p></body></html>"))
         self.an_ds_instanta.setItemText(0, _translate("Macheta", "2021"))
         self.an_ds_instanta.setItemText(1, _translate("Macheta", "2018"))
         self.an_ds_instanta.setItemText(2, _translate("Macheta", "2019"))
@@ -473,7 +475,8 @@ class Ui_Macheta(object):
         self.re.setText(_translate("Macheta", "RE"))
         self.infr_3.setPlaceholderText(_translate("Macheta", "articol infracțiune"))
         self.dom_label.setText(_translate("Macheta", "Domiciliu:"))
-        self.adresa_inc.setToolTip(_translate("Macheta", "<html><head/><body><p>Lăsați sectorul ultimul!</p></body></html>"))
+        self.adresa_inc.setToolTip(
+            _translate("Macheta", "<html><head/><body><p>Lăsați sectorul ultimul!</p></body></html>"))
         self.adresa_inc.setText(_translate("Macheta", "București, "))
         self.adresa_inc.setPlaceholderText(_translate("Macheta", "adresă inculpat"))
         self.ped_zile.setSuffix(_translate("Macheta", " zile"))
@@ -490,8 +493,10 @@ class Ui_Macheta(object):
         self.oblig_2_label.setWhatsThis(_translate("Macheta", "Fără MFC!"))
         self.oblig_2_label.setText(_translate("Macheta", "Obligații"))
         self.inc_label.setText(_translate("Macheta", "Inculpat:"))
-        self.indicativ_ds_inst.setToolTip(_translate("Macheta", "<html><head/><body><p>Numărul dintre &quot;/&quot;</p></body></html>"))
-        self.indicativ_ds_inst.setWhatsThis(_translate("Macheta", "<html><head/><body><p>Dosarul de instanță are trei părți.</p><p>100/300/2020</p><p>100 = numărul dosarului</p><p>300 = indicativul instanței</p><p>2020 = anul dosarului</p><p><br/></p></body></html>"))
+        self.indicativ_ds_inst.setToolTip(
+            _translate("Macheta", "<html><head/><body><p>Numărul dintre &quot;/&quot;</p></body></html>"))
+        self.indicativ_ds_inst.setWhatsThis(_translate("Macheta",
+                                                       "<html><head/><body><p>Dosarul de instanță are trei părți.</p><p>100/300/2020</p><p>100 = numărul dosarului</p><p>300 = indicativul instanței</p><p>2020 = anul dosarului</p><p><br/></p></body></html>"))
         self.indicativ_ds_inst.setPlaceholderText(_translate("Macheta", "indicativ"))
         self.infr1.setPlaceholderText(_translate("Macheta", "articol infracțiune"))
         self.instit_1.setItemText(0, _translate("Macheta", "Administrația Domeniului Public București-Sector I"))
@@ -499,13 +504,20 @@ class Ui_Macheta(object):
         self.instit_1.setItemText(2, _translate("Macheta", "Administrația Domeniului Public București-Sector II"))
         self.instit_1.setItemText(3, _translate("Macheta", "Administrația Domeniului Public București-Sector IV"))
         self.instit_1.setItemText(4, _translate("Macheta", "SC Amenajare Edilitară și Salubrizare SA Sector V"))
-        self.instit_1.setItemText(5, _translate("Macheta", "Administrația Domeniului Public și Dezvoltare Urbană Sector 6"))
-        self.instit_1.setItemText(6, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Copilului Sector I"))
-        self.instit_1.setItemText(7, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Copilului Sector II"))
-        self.instit_1.setItemText(8, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Copilului Sector III"))
-        self.instit_1.setItemText(9, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Copilului Sector IV"))
-        self.instit_1.setItemText(10, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Copilului Sector V"))
-        self.instit_1.setItemText(11, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Copilului Sector VI"))
+        self.instit_1.setItemText(5, _translate("Macheta",
+                                                "Administrația Domeniului Public și Dezvoltare Urbană Sector 6"))
+        self.instit_1.setItemText(6, _translate("Macheta",
+                                                "Direcția Generală de Asistență Socială și Protecție a Copilului Sector I"))
+        self.instit_1.setItemText(7, _translate("Macheta",
+                                                "Direcția Generală de Asistență Socială și Protecție a Copilului Sector II"))
+        self.instit_1.setItemText(8, _translate("Macheta",
+                                                "Direcția Generală de Asistență Socială și Protecție a Copilului Sector III"))
+        self.instit_1.setItemText(9, _translate("Macheta",
+                                                "Direcția Generală de Asistență Socială și Protecție a Copilului Sector IV"))
+        self.instit_1.setItemText(10, _translate("Macheta",
+                                                 "Direcția Generală de Asistență Socială și Protecție a Copilului Sector V"))
+        self.instit_1.setItemText(11, _translate("Macheta",
+                                                 "Direcția Generală de Asistență Socială și Protecție a Copilului Sector VI"))
         self.instit_1.setItemText(12, _translate("Macheta", "Administrația Lacuri, Parcuri și Agrement București"))
         self.instit_1.setItemText(13, _translate("Macheta", "Poliția Locală a Sectorului I"))
         self.instit_1.setItemText(14, _translate("Macheta", "Fundația pentru Promovarea Sancțiunilor Comunitare"))
@@ -516,15 +528,19 @@ class Ui_Macheta(object):
         self.separator_2.setText(_translate("Macheta", "/"))
         self.optiuni_def.setItemText(0, _translate("Macheta", "neapelare la data de"))
         self.optiuni_def.setItemText(1, _translate("Macheta", "decizia penală nr.:"))
-        self.nr_ds_svp.setToolTip(_translate("Macheta", "<html><head/><body><p>Daca nr dosarului e 1/SP/S/2020 aici scrii 1</p></body></html>"))
-        self.nr_ds_svp.setWhatsThis(_translate("Macheta", "<html><head/><body><p>Numărul dosarului este format din trei elemente: numar înregistrare/indicativ instanta / an dosar. </p><p><br/></p><p>Să luam ca exemplu dosarul 1/300/2020</p><p><br/></p><p>1 = numărul de înregistrare al dosarului la instanță</p><p>300 = indicativul instanței (300 este indicativul JS2). Orice dosar va avea indicativul instantei de fond</p><p>2020 = anul înregistrării dosarului</p></body></html>"))
+        self.nr_ds_svp.setToolTip(_translate("Macheta",
+                                             "<html><head/><body><p>Daca nr dosarului e 1/SP/S/2020 aici scrii 1</p></body></html>"))
+        self.nr_ds_svp.setWhatsThis(_translate("Macheta",
+                                               "<html><head/><body><p>Numărul dosarului este format din trei elemente: numar înregistrare/indicativ instanta / an dosar. </p><p><br/></p><p>Să luam ca exemplu dosarul 1/300/2020</p><p><br/></p><p>1 = numărul de înregistrare al dosarului la instanță</p><p>300 = indicativul instanței (300 este indicativul JS2). Orice dosar va avea indicativul instantei de fond</p><p>2020 = anul înregistrării dosarului</p></body></html>"))
         self.loc_nastere_inc.setPlaceholderText(_translate("Macheta", "loc nastere inculpat"))
         self.zile_mfc.setSuffix(_translate("Macheta", " zile MFC"))
         self.svp_zile.setSuffix(_translate("Macheta", " zile"))
         self.infr_1_label.setText(_translate("Macheta", "Infracțiune 1"))
         self.separator_1.setText(_translate("Macheta", "/"))
-        self.copy.setText(_translate("Macheta", "<html><head/><body><p><span style=\" font-size:9pt; color:#1b24d5;\">Program creat de Alexandru Manole</span></p></body></html>"))
-        self.stiu_msj.setToolTip(_translate("Macheta", "<html><head/><body><p>Dacă ați văzut mesajul când apăsați &quot;Încarcă documentul&quot; puteți să bifați</p></body></html>"))
+        self.copy.setText(_translate("Macheta",
+                                     "<html><head/><body><p><span style=\" font-size:9pt; color:#1b24d5;\">Program creat de Alexandru Manole</span></p></body></html>"))
+        self.stiu_msj.setToolTip(_translate("Macheta",
+                                            "<html><head/><body><p>Dacă ați văzut mesajul când apăsați &quot;Încarcă documentul&quot; puteți să bifați</p></body></html>"))
         self.stiu_msj.setText(_translate("Macheta", "Știu deja tot ceea ce e de știut!"))
         self.svp_label.setText(_translate("Macheta", "Supraveghere:"))
         self.sent_inc.setText(_translate("Macheta", "Nicio sentință încărcată"))
@@ -533,13 +549,20 @@ class Ui_Macheta(object):
         self.instit_2.setItemText(2, _translate("Macheta", "Administrația Domeniului Public București-Sector II"))
         self.instit_2.setItemText(3, _translate("Macheta", "Administrația Domeniului Public București-Sector IV"))
         self.instit_2.setItemText(4, _translate("Macheta", "SC Amenajare Edilitară și Salubrizare SA Sector V"))
-        self.instit_2.setItemText(5, _translate("Macheta", "Administrația Domeniului Public și Dezvoltare Urbană Sector 6"))
-        self.instit_2.setItemText(6, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector I"))
-        self.instit_2.setItemText(7, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector II"))
-        self.instit_2.setItemText(8, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector III"))
-        self.instit_2.setItemText(9, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector IV"))
-        self.instit_2.setItemText(10, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector V"))
-        self.instit_2.setItemText(11, _translate("Macheta", "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector VI"))
+        self.instit_2.setItemText(5, _translate("Macheta",
+                                                "Administrația Domeniului Public și Dezvoltare Urbană Sector 6"))
+        self.instit_2.setItemText(6, _translate("Macheta",
+                                                "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector I"))
+        self.instit_2.setItemText(7, _translate("Macheta",
+                                                "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector II"))
+        self.instit_2.setItemText(8, _translate("Macheta",
+                                                "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector III"))
+        self.instit_2.setItemText(9, _translate("Macheta",
+                                                "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector IV"))
+        self.instit_2.setItemText(10, _translate("Macheta",
+                                                 "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector V"))
+        self.instit_2.setItemText(11, _translate("Macheta",
+                                                 "Direcția Generală de Asistență Socială și Protecție a Protecția a Copilului Sector VI"))
         self.instit_2.setItemText(12, _translate("Macheta", "Administrația Lacuri, Parcuri și Agrement București"))
         self.instit_2.setItemText(13, _translate("Macheta", "Poliția Locală a Sectorului I"))
         self.instit_2.setItemText(14, _translate("Macheta", "Fundația pentru Promovarea Sancțiunilor Comunitare"))
@@ -551,8 +574,10 @@ class Ui_Macheta(object):
         self.infr2.setPlaceholderText(_translate("Macheta", "articol infracțiune"))
         self.ped_an.setSuffix(_translate("Macheta", " ani"))
         self.ped_luni.setSuffix(_translate("Macheta", " luni"))
-        self.nr_ds_inst.setToolTip(_translate("Macheta", "<html><head/><body><p>Prima parte a numărului dosarului</p></body></html>"))
-        self.nr_ds_inst.setWhatsThis(_translate("Macheta", "<html><head/><body><p>Dosarul de instanță are trei părți.</p><p>100/300/2020</p><p>100 = numărul dosarului</p><p>300 = indicativul instanței</p><p>2020 = anul dosarului</p><p><br/></p></body></html>"))
+        self.nr_ds_inst.setToolTip(
+            _translate("Macheta", "<html><head/><body><p>Prima parte a numărului dosarului</p></body></html>"))
+        self.nr_ds_inst.setWhatsThis(_translate("Macheta",
+                                                "<html><head/><body><p>Dosarul de instanță are trei părți.</p><p>100/300/2020</p><p>100 = numărul dosarului</p><p>300 = indicativul instanței</p><p>2020 = anul dosarului</p><p><br/></p></body></html>"))
         self.nr_ds_inst.setPlaceholderText(_translate("Macheta", "număr"))
         self.obl_3.setPlaceholderText(_translate("Macheta", "inclusiv MFC"))
         self.ped_label.setText(_translate("Macheta", "Pedeapsa:"))
@@ -561,6 +586,7 @@ class Ui_Macheta(object):
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     Macheta = QtWidgets.QMainWindow()
     ui = Ui_Macheta()

@@ -2,4 +2,4 @@
 2. Calendar
 3. Baze de date
 4. Check buttons pt selectare SERN și/sau listă
-5.
+5.Introducere date in lista

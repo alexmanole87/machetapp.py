@@ -1,11 +1,7 @@
-from docx import document, Document
-from PyQt5.QtWidgets import QMenu
 # import interfata_grafica_macheta as igm
-import interfata_grafica_macheta_v3 as igm
-import docx
-from docx2python import docx2python
-import datetime
 import os
+
+from docx import Document
 
 
 
@@ -51,9 +47,12 @@ def activitati(instit):
     else:
         return ''
 
+
 class document_supraveghere():
-    def __init__(self, dsSuprav, nume, numeP, datan, adresa, cnp, studii, infr1, infr2, infr3, dsinst, nrSentinta, instanta, defin, pedeapsa, ts, indicativ,dataVenire, oraVenire, sector,sectie_pol, data_svp_i,data_svp_f,
-                 obligatii, mfc_h,mfc_z,mfc_instit_1_n,mfc_instit_1_a,mfc_instit_2_n,mfc_instit_2_a):
+    def __init__(self, dsSuprav, nume, numeP, datan, adresa, cnp, studii, infr1, infr2, infr3, dsinst, nrSentinta,
+                 instanta, defin, pedeapsa, ts, indicativ, dataVenire, oraVenire, sector, sectie_pol, data_svp_i,
+                 data_svp_f,
+                 obligatii, mfc_h, mfc_z, mfc_instit_1_n, mfc_instit_1_a, mfc_instit_2_n, mfc_instit_2_a):
         self.mfc_instit_2_a = mfc_instit_2_a
         self.mfc_instit_2_n = mfc_instit_2_n
         self.mfc_instit_1_a = mfc_instit_1_a
@@ -85,21 +84,21 @@ class document_supraveghere():
         self.dataVenire = dataVenire
         self.oraVenire = oraVenire
 
-
-
     def pp(self, dir):
         def paragraphs_to_be_added():
             dir = os.getcwd() + "\Macheta Dosar\General\Prima pagina dosar macheta .docx"
             doc_to_be_chanched = Document(dir)
             p0 = str(doc_to_be_chanched.paragraphs[0:6])
-            nume_inc =str (doc_to_be_chanched.paragraphs[6].text.replace('(nume)', f"{self.nume}"))
+            nume_inc = str(doc_to_be_chanched.paragraphs[6].text.replace('(nume)', f"{self.nume}"))
             nume_parinti = str(doc_to_be_chanched.paragraphs[6].text.replace('(prenume parinti)', f"{self.numeP}"))
-            data_nasterii = str(doc_to_be_chanched.paragraphs[7].text.replace('(data si locul nasterii)', f"{self.datan}"))
+            data_nasterii = str(
+                doc_to_be_chanched.paragraphs[7].text.replace('(data si locul nasterii)', f"{self.datan}"))
             adresa = str(doc_to_be_chanched.paragraphs[8].text.replace('(adresa)', f"{self.adresa}"))
             cnp = str(doc_to_be_chanched.paragraphs[9].text.replace('(CNP)', f"{self.cnp}"))
             studii = str(doc_to_be_chanched.paragraphs[10].text.replace('(nrClase)', f"{self.studii}"))
             p11 = str(doc_to_be_chanched.paragraphs[11:15])
-            infr = str(doc_to_be_chanched.paragraphs[15].text.replace('(infracțiune)', f"{self.infr1} + ',' +{self.infr2} + ',' + {self.infr3}"))
+            infr = str(doc_to_be_chanched.paragraphs[15].text.replace('(infracțiune)',
+                                                                      f"{self.infr1} + ',' +{self.infr2} + ',' + {self.infr3}"))
             dsInst = str(doc_to_be_chanched.paragraphs[17].text.replace('(dosarInstanță)', f"{self.dsinst}"))
             nrSent = str(doc_to_be_chanched.paragraphs[18].text.replace('(nrSentință)', f"{self.nrSentinta}"))
             numeInst = str(doc_to_be_chanched.paragraphs[18].text.replace('(instanta)', f"{self.instanta}"))
@@ -111,7 +110,7 @@ class document_supraveghere():
             dataStop = str(doc_to_be_chanched.paragraphs[23].text.replace('(data stop)', "{dataStop}"))
             p_fin = str(doc_to_be_chanched.paragraphs[24:])
 
-            return p0, nume_inc, nume_parinti, data_nasterii, adresa, cnp, studii, p11, infr, dsInst, nrSent, numeInst, defSent, pedeapsa, numeTs, p22, dataStart, dataStop,p_fin
+            return p0, nume_inc, nume_parinti, data_nasterii, adresa, cnp, studii, p11, infr, dsInst, nrSent, numeInst, defSent, pedeapsa, numeTs, p22, dataStart, dataStop, p_fin
 
         prima_pagina = Document()
         list_items = paragraphs_to_be_added()
@@ -123,8 +122,7 @@ class document_supraveghere():
         prima_pagina.save(dir)
         return prima_pagina
 
-
-    def confirmare(self, dir) :
+    def confirmare(self, dir):
 
         # with open(os.getcwd() + '\\Macheta Dosar\\General\\Confirmare de Primire macheta.docx', 'r+',encoding="utf8") as f:
         #     text = f.read()
@@ -138,7 +136,7 @@ class document_supraveghere():
         for paragraph in document.paragraphs:
             if '-nume-' in paragraph.text:
                 paragraph.text.replace('-nume-', self.nume)
-                print ('a fost gasit cuvantul')
+                print('a fost gasit cuvantul')
                 print(paragraph.text)
 
         document.save(dir)
@@ -196,8 +194,6 @@ class document_supraveghere():
 
         return macheta_lista_completata
 
-
-
 # def clickDreaptaOptiuni():
 #     menu_cldr = QMenu()
 #
@@ -206,25 +202,3 @@ class document_supraveghere():
 #     nlp = menu_cldr.addAction('NLP')
 #
 #     action = menu_cldr.exec_(mapToGlobal(event.pos()))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

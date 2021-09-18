@@ -1,10 +1,9 @@
 # from PyQt5.QtGui import QKeyEvent
-import math
 import sys
 
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QMessageBox, QMainWindow, QFileDialog
-
+from selenium import webdriver
 from selenium.webdriver.support.select import Select
 
 from functii import *
@@ -12,7 +11,6 @@ from functii import *
 from interfata_grafica_macheta_v3 import *
 from splash import *
 from vars import *
-from selenium import webdriver
 
 counter = 0
 cfg = ConfigParser()
@@ -191,7 +189,6 @@ class MachetaPyQt5(Ui_Macheta):
                 self.svp_ani.setMinimum(0)
                 self.svp_ani.setMaximum(9)
 
-
             if self.indiv_ped.currentText() == "Înlocuirea amenzii cu mfc":
                 self.ped_an.hide()
                 self.ped_luni.hide()
@@ -214,7 +211,7 @@ class MachetaPyQt5(Ui_Macheta):
     def calcul_treime(self):
         treime_zile = None
         if len(self.zile_coada.text()) == 8:
-            treime_zile = int(self.zile_coada.text()[0:4])//3
+            treime_zile = int(self.zile_coada.text()[0:4]) // 3
         if len(self.zile_coada.text()) == 9:
             treime_zile = int(self.zile_coada.text()[0:5]) // 3
 
@@ -606,7 +603,8 @@ class MachetaPyQt5(Ui_Macheta):
                                                   datan=self.data_nastere_inc.text() + ' în ' + self.loc_nastere_inc.text(),
                                                   adresa=self.adresa_inc.text(), cnp=self.CNP.text(),
                                                   studii=self.studii_func(), infr1=self.infr1.text(),
-                                                  infr2=self.infr2.text(), infr3=self.infr_3.text(), dsinst=self.ds_pen(),
+                                                  infr2=self.infr2.text(), infr3=self.infr_3.text(),
+                                                  dsinst=self.ds_pen(),
                                                   nrSentinta=self.sentinata_fun(),
                                                   instanta=nume_inst(self.indicativ_ds_inst.text()),
                                                   defin=self.data_mod_def_func(self.optiuni_def.currentText()),
@@ -614,7 +612,8 @@ class MachetaPyQt5(Ui_Macheta):
                                                   indicativ=self.indicativ(), ts=self.ts(),
                                                   dataVenire=self.data_venire.text(), oraVenire=self.ora_venire.text(),
                                                   sector=self.sector(), sectie_pol=self.sectie.text(),
-                                                  data_svp_i=self.data_mod_def_func(self.optiuni_def.currentText())[-10:],
+                                                  data_svp_i=self.data_mod_def_func(self.optiuni_def.currentText())[
+                                                             -10:],
                                                   data_svp_f=self.fin_svp(), obligatii=self.obl_func(),
                                                   mfc_z=self.mfc_zile(), mfc_h=self.mfc_h(),
                                                   mfc_instit_1_n=self.instit_nume1(),
@@ -658,7 +657,8 @@ class MachetaPyQt5(Ui_Macheta):
 
                 _ = QMessageBox()
                 _.setWindowTitle('Eroare!')
-                _.setText("Introdu indicativul instanței (numărul dintre '/'). A doua căsuță de la rubrica dosar instanță")
+                _.setText(
+                    "Introdu indicativul instanței (numărul dintre '/'). A doua căsuță de la rubrica dosar instanță")
                 _.setIcon(QMessageBox.Warning)
 
                 __ = _.exec_()
@@ -671,11 +671,10 @@ class MachetaPyQt5(Ui_Macheta):
         print(self.svp_ani.text())
 
     def sern_lista(self):
-            self.sern()
-            self.lista()
+        self.sern()
+        self.lista()
 
-        # self.test_print()
-
+    # self.test_print()
 
 
 class Splash(QMainWindow):

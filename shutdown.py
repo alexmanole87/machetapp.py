@@ -1,7 +1,5 @@
 import os
 
-
-
 sd = input('La revedere?')
 
 if sd == str.lower('Da'):

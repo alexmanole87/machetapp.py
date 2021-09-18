@@ -18,13 +18,13 @@ class Ui_Form(object):
         self.frame = QtWidgets.QFrame(Form)
         self.frame.setGeometry(QtCore.QRect(0, 0, 731, 381))
         self.frame.setStyleSheet("QFrame{\n"
-"background-color:rgb(37, 59, 64);\n"
-"border-radius:10px;\n"
-"}\n"
-"\n"
-"QProgressBar::chunk{\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:0.482864, x2:1, y2:0.466, stop:0 rgba(37, 59, 64, 255), stop:1 rgba(242, 124, 38, 255));\n"
-"}")
+                                 "background-color:rgb(37, 59, 64);\n"
+                                 "border-radius:10px;\n"
+                                 "}\n"
+                                 "\n"
+                                 "QProgressBar::chunk{\n"
+                                 "    background-color: qlineargradient(spread:pad, x1:0, y1:0.482864, x2:1, y2:0.466, stop:0 rgba(37, 59, 64, 255), stop:1 rgba(242, 124, 38, 255));\n"
+                                 "}")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
@@ -51,9 +51,9 @@ class Ui_Form(object):
         self.progressBar = QtWidgets.QProgressBar(self.frame)
         self.progressBar.setGeometry(QtCore.QRect(180, 250, 351, 23))
         self.progressBar.setStyleSheet("QProgressBar{\n"
-"color:rgb(242, 124, 38);\n"
-"text-align: center;\n"
-"}")
+                                       "color:rgb(242, 124, 38);\n"
+                                       "text-align: center;\n"
+                                       "}")
         self.progressBar.setProperty("value", 24)
         self.progressBar.setObjectName("progressBar")
         self.se_incarca = QtWidgets.QLabel(self.frame)

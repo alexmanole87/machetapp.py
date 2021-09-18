@@ -1,2021 +1,2048 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Macheta</class>
- <widget class="QMainWindow" name="Macheta">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>1479</width>
-    <height>900</height>
-   </rect>
-  </property>
-  <property name="font">
-   <font>
-    <family>Trebuchet MS</family>
-    <pointsize>12</pointsize>
-    <weight>50</weight>
-    <italic>false</italic>
-    <bold>false</bold>
-   </font>
-  </property>
-  <property name="contextMenuPolicy">
-   <enum>Qt::DefaultContextMenu</enum>
-  </property>
-  <property name="acceptDrops">
-   <bool>true</bool>
-  </property>
-  <property name="windowTitle">
-   <string>MainWindow</string>
-  </property>
-  <property name="toolTip">
-   <string/>
-  </property>
-  <property name="toolButtonStyle">
-   <enum>Qt::ToolButtonIconOnly</enum>
-  </property>
-  <property name="documentMode">
-   <bool>false</bool>
-  </property>
-  <property name="tabShape">
-   <enum>QTabWidget::Rounded</enum>
-  </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="obl_4">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>578</y>
-      <width>1341</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>inclusiv MFC</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="instit_1_label">
-    <property name="geometry">
-     <rect>
-      <x>32</x>
-      <y>608</y>
-      <width>91</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Instit MFC 1</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="infr_1_label">
-    <property name="geometry">
-     <rect>
-      <x>38</x>
-      <y>310</y>
-      <width>91</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Infracțiune 1</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="copy">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>843</y>
-      <width>211</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#1b24d5;&quot;&gt;Program creat de Alexandru Manole&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="ds_svp">
-    <property name="geometry">
-     <rect>
-      <x>298</x>
-      <y>144</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Dosar supraveghere</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="oblig_2_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>508</y>
-      <width>71</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="whatsThis">
-     <string>Fără MFC!</string>
-    </property>
-    <property name="text">
-     <string>Obligație 2</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="ped_label">
-    <property name="geometry">
-     <rect>
-      <x>119</x>
-      <y>441</y>
-      <width>81</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Pedeapsa:</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="creere_doc">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>737</y>
-      <width>261</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CREEAZĂ DOSAR ȘI LISTA  </string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="instit_2">
-    <property name="geometry">
-     <rect>
-      <x>122</x>
-      <y>617</y>
-      <width>531</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public București-Sector I</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public București-Sector II</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public București-Sector II</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public București-Sector IV</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>SC Amenajare Edilitară și Salubrizare SA Sector V</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public și Dezvoltare Urbană Sector 6</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector I</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector II</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector III</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector IV</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector V</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector VI</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Lacuri, Parcuri și Agrement București</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Poliția Locală a Sectorului I</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Fundația pentru Promovarea Sancțiunilor Comunitare</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Cimitirelor și Crematoriilor Umane</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Arhiepiscopia Bucureștilor</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>La alegerea SP</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>în afara comeptentei SP 2</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QDateEdit" name="data_ds_svp">
-    <property name="geometry">
-     <rect>
-      <x>628</x>
-      <y>154</y>
-      <width>110</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
-    <property name="date">
-     <date>
-      <year>2020</year>
-      <month>1</month>
-      <day>1</day>
-     </date>
-    </property>
-   </widget>
-   <widget class="QLabel" name="inc_label">
-    <property name="geometry">
-     <rect>
-      <x>38</x>
-      <y>244</y>
-      <width>71</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Inculpat:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="separator">
-    <property name="geometry">
-     <rect>
-      <x>513</x>
-      <y>204</y>
-      <width>16</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>/</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="infr_3">
-    <property name="geometry">
-     <rect>
-      <x>138</x>
-      <y>391</y>
-      <width>1091</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>articol infracțiune</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="separator_1">
-    <property name="geometry">
-     <rect>
-      <x>518</x>
-      <y>154</y>
-      <width>16</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>/</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="separator_2">
-    <property name="geometry">
-     <rect>
-      <x>608</x>
-      <y>154</y>
-      <width>16</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>/</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="instit_1">
-    <property name="geometry">
-     <rect>
-      <x>122</x>
-      <y>657</y>
-      <width>531</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public București-Sector I</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public București-Sector II</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public București-Sector II</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public București-Sector IV</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>SC Amenajare Edilitară și Salubrizare SA Sector V</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Domeniului Public și Dezvoltare Urbană Sector 6</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector I</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector II</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector III</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector IV</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector V</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector VI</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Lacuri, Parcuri și Agrement București</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Poliția Locală a Sectorului I</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Fundația pentru Promovarea Sancțiunilor Comunitare</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Administrația Cimitirelor și Crematoriilor Umane</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Arhiepiscopia Bucureștilor</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>La alegerea SP</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>în afara competentei SP 1</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLabel" name="def_label">
-    <property name="geometry">
-     <rect>
-      <x>648</x>
-      <y>204</y>
-      <width>111</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Definitivă prin:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="infr_3_label">
-    <property name="geometry">
-     <rect>
-      <x>38</x>
-      <y>377</y>
-      <width>101</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Infracțiune 3</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="parinti_label">
-    <property name="geometry">
-     <rect>
-      <x>428</x>
-      <y>244</y>
-      <width>71</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>părinți:</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="obl_1">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>488</y>
-      <width>1201</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="placeholderText">
-     <string>inclusiv MFC</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="sent_label">
-    <property name="geometry">
-     <rect>
-      <x>371</x>
-      <y>204</y>
-      <width>61</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Sentință</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="nume_inc">
-    <property name="geometry">
-     <rect>
-      <x>118</x>
-      <y>244</y>
-      <width>291</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>nume prenume inculpat</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="nr_ds_inst">
-    <property name="geometry">
-     <rect>
-      <x>151</x>
-      <y>204</y>
-      <width>72</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Prima parte a numărului dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="whatsThis">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100 = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul dosarului&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::Normal</enum>
-    </property>
-    <property name="dragEnabled">
-     <bool>true</bool>
-    </property>
-    <property name="placeholderText">
-     <string>număr</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="oblig_1_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>478</y>
-      <width>71</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="whatsThis">
-     <string>Fără MFC!</string>
-    </property>
-    <property name="text">
-     <string>Obligație 1</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="ds_inst_label">
-    <property name="geometry">
-     <rect>
-      <x>38</x>
-      <y>194</y>
-      <width>110</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Dosar instanță:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="cnp_label_2">
-    <property name="geometry">
-     <rect>
-      <x>798</x>
-      <y>244</y>
-      <width>51</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>CNP:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="nastere_label">
-    <property name="geometry">
-     <rect>
-      <x>38</x>
-      <y>283</y>
-      <width>81</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Naștere:</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="an_ds_svp">
-    <property name="geometry">
-     <rect>
-      <x>538</x>
-      <y>154</y>
-      <width>61</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="editable">
-     <bool>true</bool>
-    </property>
-    <item>
-     <property name="text">
-      <string>2021</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2020</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2022</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2023</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2024</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2025</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2026</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2019</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2018</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2017</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QDateEdit" name="data_nastere_inc">
-    <property name="geometry">
-     <rect>
-      <x>119</x>
-      <y>283</y>
-      <width>110</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="dom_label">
-    <property name="geometry">
-     <rect>
-      <x>438</x>
-      <y>284</y>
-      <width>81</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Domiciliu:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="svp_label">
-    <property name="geometry">
-     <rect>
-      <x>777</x>
-      <y>441</y>
-      <width>102</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Supraveghere:</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="instit_2_label">
-    <property name="geometry">
-     <rect>
-      <x>32</x>
-      <y>647</y>
-      <width>91</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Instit MFC 2</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="nr_ds_svp">
-    <property name="geometry">
-     <rect>
-      <x>438</x>
-      <y>154</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Daca nr dosarului e 1/SP/S/2020 aici scrii 1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="whatsThis">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numărul dosarului este format din trei elemente: numar înregistrare/indicativ instanta / an dosar. &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Să luam ca exemplu dosarul 1/300/2020&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;1 = numărul de înregistrare al dosarului la instanță&lt;/p&gt;&lt;p&gt;300 = indicativul instanței (300 este indicativul JS2). Orice dosar va avea indicativul instantei de fond&lt;/p&gt;&lt;p&gt;2020 = anul înregistrării dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::Normal</enum>
-    </property>
-    <property name="dragEnabled">
-     <bool>true</bool>
-    </property>
-    <property name="placeholderText">
-     <string/>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="sent_nr">
-    <property name="geometry">
-     <rect>
-      <x>431</x>
-      <y>204</y>
-      <width>81</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="dragEnabled">
-     <bool>true</bool>
-    </property>
-    <property name="placeholderText">
-     <string>număr</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="an_ds_instanta">
-    <property name="geometry">
-     <rect>
-      <x>291</x>
-      <y>204</y>
-      <width>61</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;an dosar instanță&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="whatsThis">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100 = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="editable">
-     <bool>true</bool>
-    </property>
-    <item>
-     <property name="text">
-      <string>2021</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2022</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2023</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2024</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2025</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2018</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2019</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>2020</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLineEdit" name="adresa_inc">
-    <property name="geometry">
-     <rect>
-      <x>518</x>
-      <y>284</y>
-      <width>611</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Lăsați sectorul ultimul!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="text">
-     <string>București, </string>
-    </property>
-    <property name="placeholderText">
-     <string>adresă inculpat</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="indicativ_ds_inst">
-    <property name="geometry">
-     <rect>
-      <x>221</x>
-      <y>204</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numărul dintre &amp;quot;/&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="whatsThis">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100 = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul dosarului&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::Normal</enum>
-    </property>
-    <property name="dragEnabled">
-     <bool>true</bool>
-    </property>
-    <property name="placeholderText">
-     <string>indicativ</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="optiuni_def">
-    <property name="geometry">
-     <rect>
-      <x>770</x>
-      <y>204</y>
-      <width>171</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>neapelare la data de</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>decizia penală nr.:</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLineEdit" name="loc_nastere_inc">
-    <property name="geometry">
-     <rect>
-      <x>239</x>
-      <y>283</y>
-      <width>181</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>loc naștere inculpat</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="CNP">
-    <property name="geometry">
-     <rect>
-      <x>838</x>
-      <y>244</y>
-      <width>141</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="maxLength">
-     <number>13</number>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="oblig_3_label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>538</y>
-      <width>71</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="whatsThis">
-     <string>Fără MFC!</string>
-    </property>
-    <property name="text">
-     <string>Obligație 3</string>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="data_sent">
-    <property name="geometry">
-     <rect>
-      <x>525</x>
-      <y>204</y>
-      <width>110</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="dateTime">
-     <datetime>
-      <hour>0</hour>
-      <minute>0</minute>
-      <second>0</second>
-      <year>2017</year>
-      <month>1</month>
-      <day>1</day>
-     </datetime>
-    </property>
-    <property name="minimumDateTime">
-     <datetime>
-      <hour>0</hour>
-      <minute>0</minute>
-      <second>0</second>
-      <year>2017</year>
-      <month>1</month>
-      <day>1</day>
-     </datetime>
-    </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="infr1">
-    <property name="geometry">
-     <rect>
-      <x>138</x>
-      <y>320</y>
-      <width>1091</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="placeholderText">
-     <string>articol infracțiune</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="infr2">
-    <property name="geometry">
-     <rect>
-      <x>138</x>
-      <y>352</y>
-      <width>1091</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>articol infracțiune</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="infr_2_label">
-    <property name="geometry">
-     <rect>
-      <x>38</x>
-      <y>341</y>
-      <width>91</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Infracțiune 2</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="nume_parinti_inc">
-    <property name="geometry">
-     <rect>
-      <x>488</x>
-      <y>244</y>
-      <width>291</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>prenume părinți inculpat</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="ped_an">
-    <property name="geometry">
-     <rect>
-      <x>226</x>
-      <y>438</y>
-      <width>61</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> ani</string>
-    </property>
-    <property name="prefix">
-     <string/>
-    </property>
-    <property name="minimum">
-     <number>0</number>
-    </property>
-    <property name="maximum">
-     <number>3</number>
-    </property>
-    <property name="value">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="ped_luni">
-    <property name="geometry">
-     <rect>
-      <x>291</x>
-      <y>438</y>
-      <width>80</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> luni</string>
-    </property>
-    <property name="maximum">
-     <number>11</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="ped_zile">
-    <property name="geometry">
-     <rect>
-      <x>372</x>
-      <y>437</y>
-      <width>71</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> zile</string>
-    </property>
-    <property name="maximum">
-     <number>29</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="svp_ani">
-    <property name="geometry">
-     <rect>
-      <x>877</x>
-      <y>438</y>
-      <width>63</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> ani</string>
-    </property>
-    <property name="maximum">
-     <number>4</number>
-    </property>
-    <property name="value">
-     <number>2</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="svp_luni">
-    <property name="geometry">
-     <rect>
-      <x>939</x>
-      <y>438</y>
-      <width>73</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> luni</string>
-    </property>
-    <property name="maximum">
-     <number>11</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="svp_zile">
-    <property name="geometry">
-     <rect>
-      <x>1011</x>
-      <y>438</y>
-      <width>83</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> zile</string>
-    </property>
-    <property name="maximum">
-     <number>29</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="zile_mfc">
-    <property name="geometry">
-     <rect>
-      <x>1320</x>
-      <y>481</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> zile MFC</string>
-    </property>
-    <property name="minimum">
-     <number>30</number>
-    </property>
-    <property name="maximum">
-     <number>120</number>
-    </property>
-    <property name="value">
-     <number>60</number>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="data_venire">
-    <property name="geometry">
-     <rect>
-      <x>170</x>
-      <y>100</y>
-      <width>151</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="maximumDateTime">
-     <datetime>
-      <hour>23</hour>
-      <minute>59</minute>
-      <second>59</second>
-      <year>2025</year>
-      <month>12</month>
-      <day>31</day>
-     </datetime>
-    </property>
-    <property name="minimumDateTime">
-     <datetime>
-      <hour>0</hour>
-      <minute>0</minute>
-      <second>0</second>
-      <year>2021</year>
-      <month>1</month>
-      <day>1</day>
-     </datetime>
-    </property>
-    <property name="maximumDate">
-     <date>
-      <year>2025</year>
-      <month>12</month>
-      <day>31</day>
-     </date>
-    </property>
-    <property name="minimumDate">
-     <date>
-      <year>2021</year>
-      <month>1</month>
-      <day>1</day>
-     </date>
-    </property>
-    <property name="maximumTime">
-     <time>
-      <hour>23</hour>
-      <minute>59</minute>
-      <second>59</second>
-     </time>
-    </property>
-    <property name="displayFormat">
-     <string>dd MMMM yyyy</string>
-    </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
-    <property name="date">
-     <date>
-      <year>2021</year>
-      <month>1</month>
-      <day>2</day>
-     </date>
-    </property>
-   </widget>
-   <widget class="QLabel" name="dv_label">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>100</y>
-      <width>91</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Data Venire</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="ov_lavel">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>100</y>
-      <width>91</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Ora Venire</string>
-    </property>
-   </widget>
-   <widget class="QTimeEdit" name="ora_venire">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
-      <y>100</y>
-      <width>61</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="buttonSymbols">
-     <enum>QAbstractSpinBox::PlusMinus</enum>
-    </property>
-    <property name="accelerated">
-     <bool>true</bool>
-    </property>
-    <property name="showGroupSeparator" stdset="0">
-     <bool>false</bool>
-    </property>
-    <property name="minimumDateTime">
-     <datetime>
-      <hour>8</hour>
-      <minute>30</minute>
-      <second>0</second>
-      <year>2021</year>
-      <month>1</month>
-      <day>1</day>
-     </datetime>
-    </property>
-    <property name="maximumDate">
-     <date>
-      <year>2021</year>
-      <month>12</month>
-      <day>31</day>
-     </date>
-    </property>
-    <property name="maximumTime">
-     <time>
-      <hour>8</hour>
-      <minute>30</minute>
-      <second>0</second>
-     </time>
-    </property>
-    <property name="minimumTime">
-     <time>
-      <hour>8</hour>
-      <minute>30</minute>
-      <second>0</second>
-     </time>
-    </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
-    <property name="currentSectionIndex">
-     <number>0</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="sectie">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>100</y>
-      <width>201</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> Poliție</string>
-    </property>
-    <property name="prefix">
-     <string>Secția </string>
-    </property>
-    <property name="minimum">
-     <number>1</number>
-    </property>
-    <property name="maximum">
-     <number>26</number>
-    </property>
-    <property name="stepType">
-     <enum>QAbstractSpinBox::DefaultStepType</enum>
-    </property>
-    <property name="value">
-     <number>1</number>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="studii_nesc">
-    <property name="geometry">
-     <rect>
-      <x>990</x>
-      <y>240</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>neșcolarizat</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="studii_s">
-    <property name="geometry">
-     <rect>
-      <x>1200</x>
-      <y>240</y>
-      <width>141</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>studii superioare</string>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="studii_clase">
-    <property name="geometry">
-     <rect>
-      <x>1100</x>
-      <y>240</y>
-      <width>91</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> clase</string>
-    </property>
-    <property name="prefix">
-     <string/>
-    </property>
-    <property name="minimum">
-     <number>0</number>
-    </property>
-    <property name="maximum">
-     <number>13</number>
-    </property>
-    <property name="stepType">
-     <enum>QAbstractSpinBox::DefaultStepType</enum>
-    </property>
-    <property name="value">
-     <number>1</number>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="data_def_neapelare">
-    <property name="geometry">
-     <rect>
-      <x>950</x>
-      <y>200</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="showGroupSeparator" stdset="0">
-     <bool>false</bool>
-    </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
-    <property name="date">
-     <date>
-      <year>2019</year>
-      <month>1</month>
-      <day>1</day>
-     </date>
-    </property>
-   </widget>
-   <widget class="QDateEdit" name="data_def_apel">
-    <property name="geometry">
-     <rect>
-      <x>1070</x>
-      <y>200</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="showGroupSeparator" stdset="0">
-     <bool>false</bool>
-    </property>
-    <property name="calendarPopup">
-     <bool>true</bool>
-    </property>
-    <property name="date">
-     <date>
-      <year>2019</year>
-      <month>1</month>
-      <day>1</day>
-     </date>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="nr_sent_apel">
-    <property name="geometry">
-     <rect>
-      <x>950</x>
-      <y>200</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="toolTip">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Prima parte a numărului dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="whatsThis">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100 = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul dosarului&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::Normal</enum>
-    </property>
-    <property name="dragEnabled">
-     <bool>true</bool>
-    </property>
-    <property name="placeholderText">
-     <string>număr</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="separator_3">
-    <property name="geometry">
-     <rect>
-      <x>1060</x>
-      <y>200</y>
-      <width>16</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>/</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="indiv_ped">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>441</y>
-      <width>263</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Suspendarea executării pedepsei</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Amânarea aplicării pedepsei</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Liberarea condiţionată</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Înlocuirea amenzii cu mfc</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QLineEdit" name="iac1">
-    <property name="geometry">
-     <rect>
-      <x>678</x>
-      <y>657</y>
-      <width>571</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="iac2">
-    <property name="geometry">
-     <rect>
-      <x>678</x>
-      <y>617</y>
-      <width>571</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="copy_2">
-    <property name="geometry">
-     <rect>
-      <x>790</x>
-      <y>843</y>
-      <width>111</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#1b24d5;&quot;&gt;Versiune GUI: 2.10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="copy_3">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>843</y>
-      <width>191</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt; color:#1b24d5;&quot;&gt;Versiune Script: 7&lt;/span&gt;&lt;span style=&quot; font-size:9pt; font-weight:600; color:#1b24d5;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="minor_major">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>441</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Major</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Minor</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QComboBox" name="indiv_ped_minori">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>441</y>
-      <width>303</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <item>
-     <property name="text">
-      <string>Suravegherea</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Asistarea zilnică</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Stagiul de formare civică</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>Consemnarea la sfârșit de săptămână</string>
-     </property>
-    </item>
-   </widget>
-   <widget class="QSpinBox" name="svp_luni_minor">
-    <property name="geometry">
-     <rect>
-      <x>940</x>
-      <y>438</y>
-      <width>71</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> luni</string>
-    </property>
-    <property name="maximum">
-     <number>6</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="svp_zile_minori">
-    <property name="geometry">
-     <rect>
-      <x>1010</x>
-      <y>438</y>
-      <width>83</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> zile</string>
-    </property>
-    <property name="maximum">
-     <number>29</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="zile_amenda">
-    <property name="geometry">
-     <rect>
-      <x>226</x>
-      <y>438</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> zile</string>
-    </property>
-    <property name="minimum">
-     <number>30</number>
-    </property>
-    <property name="maximum">
-     <number>400</number>
-    </property>
-    <property name="value">
-     <number>300</number>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="amenda_val">
-    <property name="geometry">
-     <rect>
-      <x>341</x>
-      <y>438</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> lei</string>
-    </property>
-    <property name="minimum">
-     <number>10</number>
-    </property>
-    <property name="maximum">
-     <number>500</number>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_inmultire">
-    <property name="geometry">
-     <rect>
-      <x>316</x>
-      <y>445</y>
-      <width>16</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>X</string>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="zile_coada">
-    <property name="geometry">
-     <rect>
-      <x>226</x>
-      <y>438</y>
-      <width>81</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="suffix">
-     <string> zile</string>
-    </property>
-    <property name="minimum">
-     <number>720</number>
-    </property>
-    <property name="maximum">
-     <number>9999</number>
-    </property>
-    <property name="value">
-     <number>720</number>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>116</x>
-      <y>444</y>
-      <width>101</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Rest pedeapsă</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="obl_3">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>548</y>
-      <width>1341</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="placeholderText">
-     <string>inclusiv MFC</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="obl_2">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>518</y>
-      <width>1341</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>să nu comunice cu victima sau cu membri de familie ai acesteia, cu persoanele cu care a comis infracţiunea sau cu alte persoane, stabilite de instanţă, ori să nu se apropie de acestea</string>
-    </property>
-    <property name="placeholderText">
-     <string>inclusiv MFC</string>
-    </property>
-    <property name="clearButtonEnabled">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="oblig_3_label_2">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>568</y>
-      <width>71</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Trebuchet MS</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="whatsThis">
-     <string>Fără MFC!</string>
-    </property>
-    <property name="text">
-     <string>Obligație 4</string>
-    </property>
-   </widget>
-  </widget>
-  <widget class="QToolBar" name="toolBar">
-   <property name="windowTitle">
-    <string>toolBar</string>
-   </property>
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-  </widget>
-  <action name="actionDosar_de_lucru">
-   <property name="text">
-    <string>Dosar de lucru</string>
-   </property>
-  </action>
- </widget>
- <tabstops>
-  <tabstop>nr_ds_svp</tabstop>
-  <tabstop>an_ds_svp</tabstop>
-  <tabstop>data_ds_svp</tabstop>
-  <tabstop>nr_ds_inst</tabstop>
-  <tabstop>indicativ_ds_inst</tabstop>
-  <tabstop>an_ds_instanta</tabstop>
-  <tabstop>sent_nr</tabstop>
-  <tabstop>data_sent</tabstop>
-  <tabstop>optiuni_def</tabstop>
-  <tabstop>nr_sent_apel</tabstop>
-  <tabstop>nume_inc</tabstop>
-  <tabstop>nume_parinti_inc</tabstop>
-  <tabstop>CNP</tabstop>
-  <tabstop>data_nastere_inc</tabstop>
-  <tabstop>loc_nastere_inc</tabstop>
-  <tabstop>adresa_inc</tabstop>
-  <tabstop>studii_nesc</tabstop>
-  <tabstop>studii_clase</tabstop>
-  <tabstop>studii_s</tabstop>
-  <tabstop>ped_an</tabstop>
-  <tabstop>ped_luni</tabstop>
-  <tabstop>ped_zile</tabstop>
-  <tabstop>svp_ani</tabstop>
-  <tabstop>svp_luni</tabstop>
-  <tabstop>svp_zile</tabstop>
-  <tabstop>indiv_ped</tabstop>
-  <tabstop>infr1</tabstop>
-  <tabstop>infr2</tabstop>
-  <tabstop>infr_3</tabstop>
-  <tabstop>obl_1</tabstop>
-  <tabstop>obl_4</tabstop>
-  <tabstop>zile_mfc</tabstop>
-  <tabstop>instit_1</tabstop>
-  <tabstop>instit_2</tabstop>
-  <tabstop>ora_venire</tabstop>
-  <tabstop>sectie</tabstop>
-  <tabstop>data_venire</tabstop>
-  <tabstop>creere_doc</tabstop>
-  <tabstop>data_def_neapelare</tabstop>
-  <tabstop>data_def_apel</tabstop>
-  <tabstop>iac1</tabstop>
-  <tabstop>iac2</tabstop>
- </tabstops>
- <resources/>
- <connections/>
+    <class>Macheta</class>
+    <widget class="QMainWindow" name="Macheta">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1479</width>
+                <height>900</height>
+            </rect>
+        </property>
+        <property name="font">
+            <font>
+                <family>Trebuchet MS</family>
+                <pointsize>12</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+            </font>
+        </property>
+        <property name="contextMenuPolicy">
+            <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="acceptDrops">
+            <bool>true</bool>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <property name="toolTip">
+            <string/>
+        </property>
+        <property name="toolButtonStyle">
+            <enum>Qt::ToolButtonIconOnly</enum>
+        </property>
+        <property name="documentMode">
+            <bool>false</bool>
+        </property>
+        <property name="tabShape">
+            <enum>QTabWidget::Rounded</enum>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QLineEdit" name="obl_4">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>578</y>
+                        <width>1341</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="placeholderText">
+                    <string>inclusiv MFC</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="instit_1_label">
+                <property name="geometry">
+                    <rect>
+                        <x>32</x>
+                        <y>608</y>
+                        <width>91</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Instit MFC 1</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="infr_1_label">
+                <property name="geometry">
+                    <rect>
+                        <x>38</x>
+                        <y>310</y>
+                        <width>91</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Infracțiune 1</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="copy">
+                <property name="geometry">
+                    <rect>
+                        <x>290</x>
+                        <y>843</y>
+                        <width>211</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;
+                        color:#1b24d5;&quot;&gt;Program creat de Alexandru Manole&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="ds_svp">
+                <property name="geometry">
+                    <rect>
+                        <x>298</x>
+                        <y>144</y>
+                        <width>141</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Dosar supraveghere</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="oblig_2_label">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>508</y>
+                        <width>71</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="whatsThis">
+                    <string>Fără MFC!</string>
+                </property>
+                <property name="text">
+                    <string>Obligație 2</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="ped_label">
+                <property name="geometry">
+                    <rect>
+                        <x>119</x>
+                        <y>441</y>
+                        <width>81</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Pedeapsa:</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="creere_doc">
+                <property name="geometry">
+                    <rect>
+                        <x>590</x>
+                        <y>737</y>
+                        <width>261</width>
+                        <height>91</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>CREEAZĂ DOSAR ȘI LISTA</string>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="instit_2">
+                <property name="geometry">
+                    <rect>
+                        <x>122</x>
+                        <y>617</y>
+                        <width>531</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public București-Sector I</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public București-Sector II</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public București-Sector II</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public București-Sector IV</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>SC Amenajare Edilitară și Salubrizare SA Sector V</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public și Dezvoltare Urbană Sector 6</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector I</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector II</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector III</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector IV</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector V</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector VI</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Lacuri, Parcuri și Agrement București</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Poliția Locală a Sectorului I</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Fundația pentru Promovarea Sancțiunilor Comunitare</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Cimitirelor și Crematoriilor Umane</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Arhiepiscopia Bucureștilor</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>La alegerea SP</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>în afara comeptentei SP 2</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QDateEdit" name="data_ds_svp">
+                <property name="geometry">
+                    <rect>
+                        <x>628</x>
+                        <y>154</y>
+                        <width>110</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="calendarPopup">
+                    <bool>true</bool>
+                </property>
+                <property name="date">
+                    <date>
+                        <year>2020</year>
+                        <month>1</month>
+                        <day>1</day>
+                    </date>
+                </property>
+            </widget>
+            <widget class="QLabel" name="inc_label">
+                <property name="geometry">
+                    <rect>
+                        <x>38</x>
+                        <y>244</y>
+                        <width>71</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Inculpat:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="separator">
+                <property name="geometry">
+                    <rect>
+                        <x>513</x>
+                        <y>204</y>
+                        <width>16</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>/</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="infr_3">
+                <property name="geometry">
+                    <rect>
+                        <x>138</x>
+                        <y>391</y>
+                        <width>1091</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="placeholderText">
+                    <string>articol infracțiune</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="separator_1">
+                <property name="geometry">
+                    <rect>
+                        <x>518</x>
+                        <y>154</y>
+                        <width>16</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>/</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="separator_2">
+                <property name="geometry">
+                    <rect>
+                        <x>608</x>
+                        <y>154</y>
+                        <width>16</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>/</string>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="instit_1">
+                <property name="geometry">
+                    <rect>
+                        <x>122</x>
+                        <y>657</y>
+                        <width>531</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public București-Sector I</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public București-Sector II</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public București-Sector II</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public București-Sector IV</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>SC Amenajare Edilitară și Salubrizare SA Sector V</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Domeniului Public și Dezvoltare Urbană Sector 6</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector I</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector II</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector III</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector IV</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector V</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Direcția Generală de Asistență Socială și Protecție a Copilului Sector VI</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Lacuri, Parcuri și Agrement București</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Poliția Locală a Sectorului I</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Fundația pentru Promovarea Sancțiunilor Comunitare</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Administrația Cimitirelor și Crematoriilor Umane</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Arhiepiscopia Bucureștilor</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>La alegerea SP</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>în afara competentei SP 1</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QLabel" name="def_label">
+                <property name="geometry">
+                    <rect>
+                        <x>648</x>
+                        <y>204</y>
+                        <width>111</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Definitivă prin:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="infr_3_label">
+                <property name="geometry">
+                    <rect>
+                        <x>38</x>
+                        <y>377</y>
+                        <width>101</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Infracțiune 3</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="parinti_label">
+                <property name="geometry">
+                    <rect>
+                        <x>428</x>
+                        <y>244</y>
+                        <width>71</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>părinți:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="obl_1">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>488</y>
+                        <width>1201</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="placeholderText">
+                    <string>inclusiv MFC</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="sent_label">
+                <property name="geometry">
+                    <rect>
+                        <x>371</x>
+                        <y>204</y>
+                        <width>61</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Sentință</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="nume_inc">
+                <property name="geometry">
+                    <rect>
+                        <x>118</x>
+                        <y>244</y>
+                        <width>291</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="placeholderText">
+                    <string>nume prenume inculpat</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="nr_ds_inst">
+                <property name="geometry">
+                    <rect>
+                        <x>151</x>
+                        <y>204</y>
+                        <width>72</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="toolTip">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Prima parte a numărului dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="whatsThis">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100
+                        = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul
+                        dosarului&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+                <property name="echoMode">
+                    <enum>QLineEdit::Normal</enum>
+                </property>
+                <property name="dragEnabled">
+                    <bool>true</bool>
+                </property>
+                <property name="placeholderText">
+                    <string>număr</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="oblig_1_label">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>478</y>
+                        <width>71</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="whatsThis">
+                    <string>Fără MFC!</string>
+                </property>
+                <property name="text">
+                    <string>Obligație 1</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="ds_inst_label">
+                <property name="geometry">
+                    <rect>
+                        <x>38</x>
+                        <y>194</y>
+                        <width>110</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Dosar instanță:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="cnp_label_2">
+                <property name="geometry">
+                    <rect>
+                        <x>798</x>
+                        <y>244</y>
+                        <width>51</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>CNP:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="nastere_label">
+                <property name="geometry">
+                    <rect>
+                        <x>38</x>
+                        <y>283</y>
+                        <width>81</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Naștere:</string>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="an_ds_svp">
+                <property name="geometry">
+                    <rect>
+                        <x>538</x>
+                        <y>154</y>
+                        <width>61</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="editable">
+                    <bool>true</bool>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>2021</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2020</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2022</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2023</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2024</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2025</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2026</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2019</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2018</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2017</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QDateEdit" name="data_nastere_inc">
+                <property name="geometry">
+                    <rect>
+                        <x>119</x>
+                        <y>283</y>
+                        <width>110</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="calendarPopup">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="dom_label">
+                <property name="geometry">
+                    <rect>
+                        <x>438</x>
+                        <y>284</y>
+                        <width>81</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Domiciliu:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="svp_label">
+                <property name="geometry">
+                    <rect>
+                        <x>777</x>
+                        <y>441</y>
+                        <width>102</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Supraveghere:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="instit_2_label">
+                <property name="geometry">
+                    <rect>
+                        <x>32</x>
+                        <y>647</y>
+                        <width>91</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Instit MFC 2</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="nr_ds_svp">
+                <property name="geometry">
+                    <rect>
+                        <x>438</x>
+                        <y>154</y>
+                        <width>71</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="toolTip">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Daca nr dosarului e 1/SP/S/2020 aici scrii 1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="whatsThis">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numărul dosarului este format din trei
+                        elemente: numar înregistrare/indicativ instanta / an dosar. &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Să
+                        luam ca exemplu dosarul 1/300/2020&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;1 = numărul
+                        de înregistrare al dosarului la instanță&lt;/p&gt;&lt;p&gt;300 = indicativul instanței (300 este
+                        indicativul JS2). Orice dosar va avea indicativul instantei de fond&lt;/p&gt;&lt;p&gt;2020 =
+                        anul înregistrării dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+                <property name="echoMode">
+                    <enum>QLineEdit::Normal</enum>
+                </property>
+                <property name="dragEnabled">
+                    <bool>true</bool>
+                </property>
+                <property name="placeholderText">
+                    <string/>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="sent_nr">
+                <property name="geometry">
+                    <rect>
+                        <x>431</x>
+                        <y>204</y>
+                        <width>81</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="dragEnabled">
+                    <bool>true</bool>
+                </property>
+                <property name="placeholderText">
+                    <string>număr</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="an_ds_instanta">
+                <property name="geometry">
+                    <rect>
+                        <x>291</x>
+                        <y>204</y>
+                        <width>61</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="toolTip">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;an dosar instanță&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="whatsThis">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100
+                        = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul
+                        dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+                <property name="editable">
+                    <bool>true</bool>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>2021</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2022</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2023</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2024</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2025</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2018</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2019</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>2020</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QLineEdit" name="adresa_inc">
+                <property name="geometry">
+                    <rect>
+                        <x>518</x>
+                        <y>284</y>
+                        <width>611</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="toolTip">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Lăsați sectorul ultimul!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="text">
+                    <string>București,</string>
+                </property>
+                <property name="placeholderText">
+                    <string>adresă inculpat</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="indicativ_ds_inst">
+                <property name="geometry">
+                    <rect>
+                        <x>221</x>
+                        <y>204</y>
+                        <width>71</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="toolTip">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numărul dintre &amp;quot;/&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="whatsThis">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100
+                        = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul
+                        dosarului&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+                <property name="echoMode">
+                    <enum>QLineEdit::Normal</enum>
+                </property>
+                <property name="dragEnabled">
+                    <bool>true</bool>
+                </property>
+                <property name="placeholderText">
+                    <string>indicativ</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="optiuni_def">
+                <property name="geometry">
+                    <rect>
+                        <x>770</x>
+                        <y>204</y>
+                        <width>171</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>neapelare la data de</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>decizia penală nr.:</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QLineEdit" name="loc_nastere_inc">
+                <property name="geometry">
+                    <rect>
+                        <x>239</x>
+                        <y>283</y>
+                        <width>181</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="placeholderText">
+                    <string>loc naștere inculpat</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="CNP">
+                <property name="geometry">
+                    <rect>
+                        <x>838</x>
+                        <y>244</y>
+                        <width>141</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="maxLength">
+                    <number>13</number>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="oblig_3_label">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>538</y>
+                        <width>71</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="whatsThis">
+                    <string>Fără MFC!</string>
+                </property>
+                <property name="text">
+                    <string>Obligație 3</string>
+                </property>
+            </widget>
+            <widget class="QDateEdit" name="data_sent">
+                <property name="geometry">
+                    <rect>
+                        <x>525</x>
+                        <y>204</y>
+                        <width>110</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="dateTime">
+                    <datetime>
+                        <hour>0</hour>
+                        <minute>0</minute>
+                        <second>0</second>
+                        <year>2017</year>
+                        <month>1</month>
+                        <day>1</day>
+                    </datetime>
+                </property>
+                <property name="minimumDateTime">
+                    <datetime>
+                        <hour>0</hour>
+                        <minute>0</minute>
+                        <second>0</second>
+                        <year>2017</year>
+                        <month>1</month>
+                        <day>1</day>
+                    </datetime>
+                </property>
+                <property name="calendarPopup">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="infr1">
+                <property name="geometry">
+                    <rect>
+                        <x>138</x>
+                        <y>320</y>
+                        <width>1091</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+                <property name="placeholderText">
+                    <string>articol infracțiune</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="infr2">
+                <property name="geometry">
+                    <rect>
+                        <x>138</x>
+                        <y>352</y>
+                        <width>1091</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="placeholderText">
+                    <string>articol infracțiune</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="infr_2_label">
+                <property name="geometry">
+                    <rect>
+                        <x>38</x>
+                        <y>341</y>
+                        <width>91</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Infracțiune 2</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="nume_parinti_inc">
+                <property name="geometry">
+                    <rect>
+                        <x>488</x>
+                        <y>244</y>
+                        <width>291</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="placeholderText">
+                    <string>prenume părinți inculpat</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="ped_an">
+                <property name="geometry">
+                    <rect>
+                        <x>226</x>
+                        <y>438</y>
+                        <width>61</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>ani</string>
+                </property>
+                <property name="prefix">
+                    <string/>
+                </property>
+                <property name="minimum">
+                    <number>0</number>
+                </property>
+                <property name="maximum">
+                    <number>3</number>
+                </property>
+                <property name="value">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="ped_luni">
+                <property name="geometry">
+                    <rect>
+                        <x>291</x>
+                        <y>438</y>
+                        <width>80</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>luni</string>
+                </property>
+                <property name="maximum">
+                    <number>11</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="ped_zile">
+                <property name="geometry">
+                    <rect>
+                        <x>372</x>
+                        <y>437</y>
+                        <width>71</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>zile</string>
+                </property>
+                <property name="maximum">
+                    <number>29</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="svp_ani">
+                <property name="geometry">
+                    <rect>
+                        <x>877</x>
+                        <y>438</y>
+                        <width>63</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>ani</string>
+                </property>
+                <property name="maximum">
+                    <number>4</number>
+                </property>
+                <property name="value">
+                    <number>2</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="svp_luni">
+                <property name="geometry">
+                    <rect>
+                        <x>939</x>
+                        <y>438</y>
+                        <width>73</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>luni</string>
+                </property>
+                <property name="maximum">
+                    <number>11</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="svp_zile">
+                <property name="geometry">
+                    <rect>
+                        <x>1011</x>
+                        <y>438</y>
+                        <width>83</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>zile</string>
+                </property>
+                <property name="maximum">
+                    <number>29</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="zile_mfc">
+                <property name="geometry">
+                    <rect>
+                        <x>1320</x>
+                        <y>481</y>
+                        <width>131</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>zile MFC</string>
+                </property>
+                <property name="minimum">
+                    <number>30</number>
+                </property>
+                <property name="maximum">
+                    <number>120</number>
+                </property>
+                <property name="value">
+                    <number>60</number>
+                </property>
+            </widget>
+            <widget class="QDateEdit" name="data_venire">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>100</y>
+                        <width>151</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="maximumDateTime">
+                    <datetime>
+                        <hour>23</hour>
+                        <minute>59</minute>
+                        <second>59</second>
+                        <year>2025</year>
+                        <month>12</month>
+                        <day>31</day>
+                    </datetime>
+                </property>
+                <property name="minimumDateTime">
+                    <datetime>
+                        <hour>0</hour>
+                        <minute>0</minute>
+                        <second>0</second>
+                        <year>2021</year>
+                        <month>1</month>
+                        <day>1</day>
+                    </datetime>
+                </property>
+                <property name="maximumDate">
+                    <date>
+                        <year>2025</year>
+                        <month>12</month>
+                        <day>31</day>
+                    </date>
+                </property>
+                <property name="minimumDate">
+                    <date>
+                        <year>2021</year>
+                        <month>1</month>
+                        <day>1</day>
+                    </date>
+                </property>
+                <property name="maximumTime">
+                    <time>
+                        <hour>23</hour>
+                        <minute>59</minute>
+                        <second>59</second>
+                    </time>
+                </property>
+                <property name="displayFormat">
+                    <string>dd MMMM yyyy</string>
+                </property>
+                <property name="calendarPopup">
+                    <bool>true</bool>
+                </property>
+                <property name="date">
+                    <date>
+                        <year>2021</year>
+                        <month>1</month>
+                        <day>2</day>
+                    </date>
+                </property>
+            </widget>
+            <widget class="QLabel" name="dv_label">
+                <property name="geometry">
+                    <rect>
+                        <x>80</x>
+                        <y>100</y>
+                        <width>91</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Data Venire</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="ov_lavel">
+                <property name="geometry">
+                    <rect>
+                        <x>360</x>
+                        <y>100</y>
+                        <width>91</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Ora Venire</string>
+                </property>
+            </widget>
+            <widget class="QTimeEdit" name="ora_venire">
+                <property name="geometry">
+                    <rect>
+                        <x>450</x>
+                        <y>100</y>
+                        <width>61</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <property name="buttonSymbols">
+                    <enum>QAbstractSpinBox::PlusMinus</enum>
+                </property>
+                <property name="accelerated">
+                    <bool>true</bool>
+                </property>
+                <property name="showGroupSeparator" stdset="0">
+                    <bool>false</bool>
+                </property>
+                <property name="minimumDateTime">
+                    <datetime>
+                        <hour>8</hour>
+                        <minute>30</minute>
+                        <second>0</second>
+                        <year>2021</year>
+                        <month>1</month>
+                        <day>1</day>
+                    </datetime>
+                </property>
+                <property name="maximumDate">
+                    <date>
+                        <year>2021</year>
+                        <month>12</month>
+                        <day>31</day>
+                    </date>
+                </property>
+                <property name="maximumTime">
+                    <time>
+                        <hour>8</hour>
+                        <minute>30</minute>
+                        <second>0</second>
+                    </time>
+                </property>
+                <property name="minimumTime">
+                    <time>
+                        <hour>8</hour>
+                        <minute>30</minute>
+                        <second>0</second>
+                    </time>
+                </property>
+                <property name="calendarPopup">
+                    <bool>true</bool>
+                </property>
+                <property name="currentSectionIndex">
+                    <number>0</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="sectie">
+                <property name="geometry">
+                    <rect>
+                        <x>520</x>
+                        <y>100</y>
+                        <width>201</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>Poliție</string>
+                </property>
+                <property name="prefix">
+                    <string>Secția</string>
+                </property>
+                <property name="minimum">
+                    <number>1</number>
+                </property>
+                <property name="maximum">
+                    <number>26</number>
+                </property>
+                <property name="stepType">
+                    <enum>QAbstractSpinBox::DefaultStepType</enum>
+                </property>
+                <property name="value">
+                    <number>1</number>
+                </property>
+            </widget>
+            <widget class="QCheckBox" name="studii_nesc">
+                <property name="geometry">
+                    <rect>
+                        <x>990</x>
+                        <y>240</y>
+                        <width>111</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>neșcolarizat</string>
+                </property>
+            </widget>
+            <widget class="QCheckBox" name="studii_s">
+                <property name="geometry">
+                    <rect>
+                        <x>1200</x>
+                        <y>240</y>
+                        <width>141</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>studii superioare</string>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="studii_clase">
+                <property name="geometry">
+                    <rect>
+                        <x>1100</x>
+                        <y>240</y>
+                        <width>91</width>
+                        <height>30</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>clase</string>
+                </property>
+                <property name="prefix">
+                    <string/>
+                </property>
+                <property name="minimum">
+                    <number>0</number>
+                </property>
+                <property name="maximum">
+                    <number>13</number>
+                </property>
+                <property name="stepType">
+                    <enum>QAbstractSpinBox::DefaultStepType</enum>
+                </property>
+                <property name="value">
+                    <number>1</number>
+                </property>
+            </widget>
+            <widget class="QDateEdit" name="data_def_neapelare">
+                <property name="geometry">
+                    <rect>
+                        <x>950</x>
+                        <y>200</y>
+                        <width>111</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="showGroupSeparator" stdset="0">
+                    <bool>false</bool>
+                </property>
+                <property name="calendarPopup">
+                    <bool>true</bool>
+                </property>
+                <property name="date">
+                    <date>
+                        <year>2019</year>
+                        <month>1</month>
+                        <day>1</day>
+                    </date>
+                </property>
+            </widget>
+            <widget class="QDateEdit" name="data_def_apel">
+                <property name="geometry">
+                    <rect>
+                        <x>1070</x>
+                        <y>200</y>
+                        <width>111</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="showGroupSeparator" stdset="0">
+                    <bool>false</bool>
+                </property>
+                <property name="calendarPopup">
+                    <bool>true</bool>
+                </property>
+                <property name="date">
+                    <date>
+                        <year>2019</year>
+                        <month>1</month>
+                        <day>1</day>
+                    </date>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="nr_sent_apel">
+                <property name="geometry">
+                    <rect>
+                        <x>950</x>
+                        <y>200</y>
+                        <width>111</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="toolTip">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Prima parte a numărului dosarului&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+                <property name="whatsThis">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dosarul de instanță are trei părți.&lt;/p&gt;&lt;p&gt;100/300/2020&lt;/p&gt;&lt;p&gt;100
+                        = numărul dosarului&lt;/p&gt;&lt;p&gt;300 = indicativul instanței&lt;/p&gt;&lt;p&gt;2020 = anul
+                        dosarului&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+                <property name="echoMode">
+                    <enum>QLineEdit::Normal</enum>
+                </property>
+                <property name="dragEnabled">
+                    <bool>true</bool>
+                </property>
+                <property name="placeholderText">
+                    <string>număr</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="separator_3">
+                <property name="geometry">
+                    <rect>
+                        <x>1060</x>
+                        <y>200</y>
+                        <width>16</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>/</string>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="indiv_ped">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>441</y>
+                        <width>263</width>
+                        <height>22</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>Suspendarea executării pedepsei</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Amânarea aplicării pedepsei</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Liberarea condiţionată</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Înlocuirea amenzii cu mfc</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QLineEdit" name="iac1">
+                <property name="geometry">
+                    <rect>
+                        <x>678</x>
+                        <y>657</y>
+                        <width>571</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="iac2">
+                <property name="geometry">
+                    <rect>
+                        <x>678</x>
+                        <y>617</y>
+                        <width>571</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="copy_2">
+                <property name="geometry">
+                    <rect>
+                        <x>790</x>
+                        <y>843</y>
+                        <width>111</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;
+                        color:#1b24d5;&quot;&gt;Versiune GUI: 2.10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="copy_3">
+                <property name="geometry">
+                    <rect>
+                        <x>530</x>
+                        <y>843</y>
+                        <width>191</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:9pt;
+                        color:#1b24d5;&quot;&gt;Versiune Script: 7&lt;/span&gt;&lt;span style=&quot; font-size:9pt;
+                        font-weight:600; color:#1b24d5;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                    </string>
+                </property>
+            </widget>
+            <widget class="QComboBox" name="minor_major">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>441</y>
+                        <width>71</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>Major</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Minor</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QComboBox" name="indiv_ped_minori">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>441</y>
+                        <width>303</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <item>
+                    <property name="text">
+                        <string>Suravegherea</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Asistarea zilnică</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Stagiul de formare civică</string>
+                    </property>
+                </item>
+                <item>
+                    <property name="text">
+                        <string>Consemnarea la sfârșit de săptămână</string>
+                    </property>
+                </item>
+            </widget>
+            <widget class="QSpinBox" name="svp_luni_minor">
+                <property name="geometry">
+                    <rect>
+                        <x>940</x>
+                        <y>438</y>
+                        <width>71</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>luni</string>
+                </property>
+                <property name="maximum">
+                    <number>6</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="svp_zile_minori">
+                <property name="geometry">
+                    <rect>
+                        <x>1010</x>
+                        <y>438</y>
+                        <width>83</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>zile</string>
+                </property>
+                <property name="maximum">
+                    <number>29</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="zile_amenda">
+                <property name="geometry">
+                    <rect>
+                        <x>226</x>
+                        <y>438</y>
+                        <width>81</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>zile</string>
+                </property>
+                <property name="minimum">
+                    <number>30</number>
+                </property>
+                <property name="maximum">
+                    <number>400</number>
+                </property>
+                <property name="value">
+                    <number>300</number>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="amenda_val">
+                <property name="geometry">
+                    <rect>
+                        <x>341</x>
+                        <y>438</y>
+                        <width>81</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>lei</string>
+                </property>
+                <property name="minimum">
+                    <number>10</number>
+                </property>
+                <property name="maximum">
+                    <number>500</number>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label_inmultire">
+                <property name="geometry">
+                    <rect>
+                        <x>316</x>
+                        <y>445</y>
+                        <width>16</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>X</string>
+                </property>
+            </widget>
+            <widget class="QSpinBox" name="zile_coada">
+                <property name="geometry">
+                    <rect>
+                        <x>226</x>
+                        <y>438</y>
+                        <width>81</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="suffix">
+                    <string>zile</string>
+                </property>
+                <property name="minimum">
+                    <number>720</number>
+                </property>
+                <property name="maximum">
+                    <number>9999</number>
+                </property>
+                <property name="value">
+                    <number>720</number>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label">
+                <property name="geometry">
+                    <rect>
+                        <x>116</x>
+                        <y>444</y>
+                        <width>101</width>
+                        <height>16</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Rest pedeapsă</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="obl_3">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>548</y>
+                        <width>1341</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="placeholderText">
+                    <string>inclusiv MFC</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="obl_2">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>518</y>
+                        <width>1341</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>să nu comunice cu victima sau cu membri de familie ai acesteia, cu persoanele cu care a
+                        comis infracţiunea sau cu alte persoane, stabilite de instanţă, ori să nu se apropie de acestea
+                    </string>
+                </property>
+                <property name="placeholderText">
+                    <string>inclusiv MFC</string>
+                </property>
+                <property name="clearButtonEnabled">
+                    <bool>true</bool>
+                </property>
+            </widget>
+            <widget class="QLabel" name="oblig_3_label_2">
+                <property name="geometry">
+                    <rect>
+                        <x>30</x>
+                        <y>568</y>
+                        <width>71</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <family>Trebuchet MS</family>
+                        <pointsize>11</pointsize>
+                        <weight>50</weight>
+                        <italic>false</italic>
+                        <bold>false</bold>
+                    </font>
+                </property>
+                <property name="whatsThis">
+                    <string>Fără MFC!</string>
+                </property>
+                <property name="text">
+                    <string>Obligație 4</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QToolBar" name="toolBar">
+            <property name="windowTitle">
+                <string>toolBar</string>
+            </property>
+            <attribute name="toolBarArea">
+                <enum>TopToolBarArea</enum>
+            </attribute>
+            <attribute name="toolBarBreak">
+                <bool>false</bool>
+            </attribute>
+        </widget>
+        <action name="actionDosar_de_lucru">
+            <property name="text">
+                <string>Dosar de lucru</string>
+            </property>
+        </action>
+    </widget>
+    <tabstops>
+        <tabstop>nr_ds_svp</tabstop>
+        <tabstop>an_ds_svp</tabstop>
+        <tabstop>data_ds_svp</tabstop>
+        <tabstop>nr_ds_inst</tabstop>
+        <tabstop>indicativ_ds_inst</tabstop>
+        <tabstop>an_ds_instanta</tabstop>
+        <tabstop>sent_nr</tabstop>
+        <tabstop>data_sent</tabstop>
+        <tabstop>optiuni_def</tabstop>
+        <tabstop>nr_sent_apel</tabstop>
+        <tabstop>nume_inc</tabstop>
+        <tabstop>nume_parinti_inc</tabstop>
+        <tabstop>CNP</tabstop>
+        <tabstop>data_nastere_inc</tabstop>
+        <tabstop>loc_nastere_inc</tabstop>
+        <tabstop>adresa_inc</tabstop>
+        <tabstop>studii_nesc</tabstop>
+        <tabstop>studii_clase</tabstop>
+        <tabstop>studii_s</tabstop>
+        <tabstop>ped_an</tabstop>
+        <tabstop>ped_luni</tabstop>
+        <tabstop>ped_zile</tabstop>
+        <tabstop>svp_ani</tabstop>
+        <tabstop>svp_luni</tabstop>
+        <tabstop>svp_zile</tabstop>
+        <tabstop>indiv_ped</tabstop>
+        <tabstop>infr1</tabstop>
+        <tabstop>infr2</tabstop>
+        <tabstop>infr_3</tabstop>
+        <tabstop>obl_1</tabstop>
+        <tabstop>obl_4</tabstop>
+        <tabstop>zile_mfc</tabstop>
+        <tabstop>instit_1</tabstop>
+        <tabstop>instit_2</tabstop>
+        <tabstop>ora_venire</tabstop>
+        <tabstop>sectie</tabstop>
+        <tabstop>data_venire</tabstop>
+        <tabstop>creere_doc</tabstop>
+        <tabstop>data_def_neapelare</tabstop>
+        <tabstop>data_def_apel</tabstop>
+        <tabstop>iac1</tabstop>
+        <tabstop>iac2</tabstop>
+    </tabstops>
+    <resources/>
+    <connections/>
 </ui>
