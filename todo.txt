@@ -1,0 +1,5 @@
+1. Orașele vor fi cu valori, nu cu text vizibil
+2. Calendar
+3. Baze de date
+4. Check buttons pt selectare SERN și/sau listă
+5.
