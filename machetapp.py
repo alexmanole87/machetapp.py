@@ -2,7 +2,7 @@
 import math
 import sys
 
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, QDate
 from PyQt5.QtWidgets import QApplication, QMessageBox, QMainWindow, QFileDialog
 
 from selenium.webdriver.support.select import Select
@@ -80,7 +80,24 @@ class MachetaPyQt5(Ui_Macheta):
         self.zile_mfc.setValue(0)
         self.instit_1.setCurrentText('')
         self.instit_2.setCurrentText('')
+        self.CNP.editingFinished.connect(self.data_nastere)
         # self.actionDosar_de_lucru.triggered.connect(self.set_dir_)
+
+    def data_nastere(self):
+        try:
+            if self.CNP.text()[0] == '1' or self.CNP.text()[0] == '2':
+                zi_nastere = QDate(int(str(19) + self.CNP.text()[1:3]), int(self.CNP.text()[3:5]), int(self.CNP.text()[5:7]))
+                self.data_nastere_inc.setDate(zi_nastere)
+            elif self.CNP.text()[0] == '5' or self.CNP.text()[0] == '6':
+                zi_nastere = QDate(int(str(20) + self.CNP.text()[1:3]), int(self.CNP.text()[3:5]),
+                                   int(self.CNP.text()[5:7]))
+                self.data_nastere_inc.setDate(zi_nastere)
+            else:
+                pass
+        except IndexError as ie:
+            print(ie)
+        except Exception as e:
+            print(e)
 
     def sector(self):
         return self.adresa_inc.text()[-1]
